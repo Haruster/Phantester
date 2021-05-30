@@ -424,6 +424,32 @@
     font-size: 2rem;
 }
 
-.service__wrapper {
+.skills__wrapper {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.skills__card {
+    margin: 10px;
+    height: 420px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #c71cfb 0%, #eec485);
+}
+
+.skills__card2 {
+    margin: 10px;
+    height: 420px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #c71cfb 0%, #eec485);
 }
