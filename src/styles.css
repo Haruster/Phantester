@@ -170,7 +170,15 @@
         display: block;
         cursor: pointer;
     }
-    #mobile-menu.is-active .bar:nth-child(2) {}
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(7px) rotate(40deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-7px) rotate(-40deg);
+    }
 }
 
 
