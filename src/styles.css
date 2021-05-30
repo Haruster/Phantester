@@ -123,6 +123,9 @@
     /*nav Bar 링크 태그에 가까이 갔을 때 그 텍스트의 색상을 바꿈 */
     color: pink;
     transition: all 0.5s ease;
+    transform: scale(1.2);
+    transition: 0.3 ease-in;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 850px) {
@@ -255,6 +258,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.hero__heading2:hover {
+    transform: scale(1.3);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}
+
 .hero__description {
     font-size: 50px;
     background-color: white;
@@ -368,4 +377,182 @@
     justify-content: center;
     color: white;
     background-image: linear-gradient(to right, #f08beb 0%, #FBEA1C 100%);
+}
+
+.main__img--card:hover {
+    transform: scale(1.1);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+    .main__content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .main__content h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .main__content h2 {
+        font-size: 2rem;
+    }
+    .main__content h3 {
+        font-size: 3rem;
+    }
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+/*skill section 부분 */
+
+.skills {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.skills h1 {
+    background-color: #1CFBF1;
+    background-image: linear-gradient(to top, #1CFB99, #FBEA1c);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.skills__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.skills__card {
+    margin: 10px;
+    height: 420px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #c71cfb 0%, #eec485);
+}
+
+.skills__card:nth-child(2) {
+    background-color: #1CFBF1;
+    background: -webkit-linear-gradient( to right, #fbea1c, #f08beb, #eec485);
+    background: linear-gradient( to right, #fbea1c, #f08beb, #eec485);
+}
+
+.skills__card:nth-child(3) {
+    background-image: -webkit-linear-gradient( -230deg, #ca5757 0%, #fcfcfc 15%, #1cfb1c 25%, #f08beb 100%);
+}
+
+.skills__card2 {
+    margin: 10px;
+    height: 420px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #c71cfb 0%, #eec485);
+}
+
+.skills__card2:nth-child(2) {
+    background-color: #1CFBF1;
+    background: -webkit-linear-gradient( to right, #fbea1c, #f08beb, #eec485);
+    background: linear-gradient( to right, #fbea1c, #f08beb, #eec485);
+}
+
+.skills__card2:nth-child(3) {
+    background-image: -webkit-linear-gradient( -230deg, #ca5757 0%, #fcfcfc 15%, #1cfb1c 25%, #f08beb 100%);
+}
+
+.skills__card h1 {
+    text-align: center;
+}
+
+.skills__card h2 {
+    text-align: center;
+}
+
+.skills__card h3 {
+    text-align: center;
+}
+
+.skills__card h4 {
+    text-align: center;
+}
+
+.skills__card p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.skills__card2 h1 {
+    text-align: center;
+}
+
+.skills__card2 h2 {
+    text-align: center;
+}
+
+.skills__card2 h3 {
+    text-align: center;
+}
+
+.skills__card2 h4 {
+    text-align: center;
+}
+
+.skills__card2 p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.skills__card:hover {
+    transform: scale(1.1);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}
+
+.skills__card2:hover {
+    transform: scale(1.1);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .skills__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills__wrapper {
+        grid-template-columns: 1fr;
+    }
 }
