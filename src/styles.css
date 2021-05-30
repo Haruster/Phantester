@@ -198,4 +198,27 @@
     justify-content: center;
     /* align-items -> hi h2 p태그를 중앙에 위치함 */
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 35px;
+}
+
+.hero__heading {
+    font-size: 90px;
+    margin-bottom: 25px;
+    color: #1CFBF1;
+}
+
+.hero__heading2 {
+    font-size: 100px;
+    margin-bottom: 25px;
+    background-color: #1CFB99;
+    background: -webkit-linear-gradient( to right, #1cfbf1, #FBEA1C);
+    background: linear-gradient( to right, #1cfbf1, #fbea1c);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
