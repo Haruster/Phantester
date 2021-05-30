@@ -186,3 +186,16 @@
 
 
 /* hero Section CSS 처리 */
+
+.hero {
+    background-color: black;
+    padding: 220px 0;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items -> hi h2 p태그를 중앙에 위치함 */
+    align-items: center;
+}
