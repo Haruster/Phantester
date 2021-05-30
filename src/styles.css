@@ -231,7 +231,7 @@
     padding: 35px;
 }
 
-.hero__heading {
+.hero__heading1 {
     font-size: 90px;
     background-size: 100%;
     margin-bottom: 25px;
@@ -304,7 +304,7 @@
 }
 
 .main__content h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     background-color: #1CFBF1;
     background-image: linear-gradient(to top, #1CFB99, #FBEA1c);
     background-size: 100%;
@@ -313,4 +313,59 @@
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+.main__content h2 {
+    font-size: 3rem;
+    background-color: #1cfbf1;
+    background: -webkit-linear-gradient( to right, #f08beb, #FBEA1C);
+    background: linear-gradient( to right, #f08beb, #fbea1c);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__content h3 {
+    font-size: 2rem;
+    background-color: #1cfbf1;
+    background: -webkit-linear-gradient( to right, #a59ca5, #f3f3f0);
+    background: linear-gradient( to right, #a59ca5, #f3f3f0);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__content h4 {
+    font-size: 1rem;
+    background-color: #1cfbf1;
+    background: -webkit-linear-gradient( to right, #f08beb, #FBEA1C);
+    background: linear-gradient( to right, #13a4f8, #f7e416);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__content p {
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #f08beb 0%, #FBEA1C 100%);
 }
